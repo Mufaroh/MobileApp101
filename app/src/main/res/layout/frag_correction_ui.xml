@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Circle centered at the top -->
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="205dp"
+        android:layout_height="260dp"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:background="@drawable/pos"
+        android:backgroundTint="@color/green"
+        android:foreground="@drawable/circle_shape"
+        android:scaleType="center"/>
+
+    <!-- TextView below the circle -->
+    <TextView
+        android:id="@+id/correctionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:paddingBottom="20dp"
+        android:text="Correction"
+        android:textColor="@color/green"
+        android:textSize="25sp" />
+
+    <!-- Button below the TextView -->
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/correctionTextView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="CONTINUE"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:theme="@style/nelly_theme"
+        android:textStyle="bold" />
+
+</RelativeLayout>

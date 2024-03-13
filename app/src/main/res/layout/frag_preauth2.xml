@@ -1,0 +1,80 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/pre_auth2_container"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:theme="@style/nelly_theme"
+
+    android:gravity="start">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pre-Auth amount"
+            android:textColor="@color/green"
+            android:layout_gravity="center"
+            android:textSize="26sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <Button
+            android:id="@+id/preAuthButton"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/opnfile_50"
+            android:padding="16dp"
+            android:text="Pre Auth"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/preAuthAdjustmentButton"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/opnfile_50"
+            android:padding="16dp"
+            android:text="Pre Auth Adjustment"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/preAuthCancelButton"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/opnfile_50"
+            android:padding="16dp"
+            android:text="Pre Auth Cancel"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/preAuthCompletionButton"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/opnfile_50"
+            android:padding="16dp"
+            android:text="Pre Auth Completion"
+            android:textSize="25dp"
+            android:background="@drawable/button_background"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+</FrameLayout>

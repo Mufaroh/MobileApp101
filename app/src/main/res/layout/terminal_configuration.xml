@@ -1,0 +1,87 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:theme="@style/nelly_theme"
+    android:orientation="vertical"
+    android:gravity="start">
+
+    <Button
+        android:id="@+id/reinstallTerminalButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Reinstall Terminal"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/setBatchNumbersButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Set Batch Numbers"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/usersButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Users"
+        android:textAlignment="textStart"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/connectedSolutionButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Connected Solution"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/eReceiptsButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="E-Receipts"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/shift_posButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Shiftpos"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

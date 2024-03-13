@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start">
+
+    <!-- Purchase Price text -->
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Purchase Price"
+        android:textColor="@color/green"
+    android:layout_gravity="center"
+    android:textSize="26sp"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"/>
+
+    <!-- Navy line -->
+
+    <!-- Confirm button -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/green"
+        android:hint="0.00"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="CONFIRM"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:theme="@style/nelly_theme"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

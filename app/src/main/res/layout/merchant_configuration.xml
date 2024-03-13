@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:theme="@style/nelly_theme"
+    android:orientation="vertical"
+    android:gravity="start">
+
+    <Button
+        android:id="@+id/updateParametersButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Update Parameters"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/batchUploadButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Batch Upload"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/preAuthCancelButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Switch SIM"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/invoiceNumbersButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Invoice Numbers"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/cashOptionButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/opnfile_50"
+        android:padding="16dp"
+        android:text="Cash Options"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

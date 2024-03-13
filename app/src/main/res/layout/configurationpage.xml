@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity"
+    android:layout_gravity="start">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/green">
+
+        <!--   <ImageButton
+            android:id="@+id/button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@android:color/transparent"
+            android:contentDescription="Start Button"
+            android:src="@drawable/nedbank_icon" />-->
+
+        <!-- Right Button -->
+       <!-- <ImageButton
+            android:id="@+id/arrow_button_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="End Button"
+            android:src="@drawable/baseline_arrow_back_ios_24" />-->
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="673dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dp"
+        android:layout_marginLeft="20dp"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/MainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <LinearLayout
+                    android:id="@+id/merchant_config_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/merchant_config"
+                        android:layout_width="80dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circle_background"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/merchant_config"
+                        app:tint="@color/white">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="3dp"
+                        android:text="    Merchant Configuration"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/terminal_config_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/terminal_config"
+                        android:layout_width="80dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circle_background"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/tem_config"
+                        app:tint="@color/white">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="3dp"
+                        android:text="    Terminal Configuration"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/hardware_config_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="190dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/hardware_config"
+                        android:layout_width="80dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circle_background"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/hardware_config"
+                        app:tint="@color/white">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="3dp"
+                        android:text="    Hardware Configuration"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/reporting_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/report"
+                        android:layout_width="80dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circle_background"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/report"
+                        app:tint="@color/white">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"
+                        android:text="      Reporting"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/more_apps_layout"
+                android:layout_width="173dp"
+                android:layout_height="190dp"
+                android:layout_marginBottom="28dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/more_apps"
+                    android:layout_width="80dp"
+                    android:layout_height="87dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/circle_background"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/application"
+                    app:tint="@color/white">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="3dp"
+                    android:text="More Apps"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="9dp"
+                android:text="see money differently"
+                android:textColor="@color/green"
+                android:textSize="15sp" />
+
+            <!--            <FrameLayout-->
+            <!--                android:id="@+id/fragment_container"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent" />-->
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
